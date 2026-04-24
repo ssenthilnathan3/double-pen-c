@@ -119,11 +119,11 @@ int main(int argc, char *argv[]) {
         draw_double(start, phi1, phi2, l1, l2);
         EndDrawing();
 
-        Image img = LoadImageFromScreen();
-        char filename[64];
-        sprintf(filename, "frames/frame_%05d.png", frame++);
-        ExportImage(img, filename);
-        UnloadImage(img);
+        // Image img = LoadImageFromScreen();
+        // char filename[64];
+        // sprintf(filename, "frames/frame_%05d.png", frame++);
+        // ExportImage(img, filename);
+        // UnloadImage(img);
     }
     return 0;
 }
